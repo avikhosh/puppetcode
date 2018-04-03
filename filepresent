@@ -1,0 +1,5 @@
+node 'node1','node2' {
+    file {'/tmp/f1.txt':
+      ensure => present,
+      }
+ }
