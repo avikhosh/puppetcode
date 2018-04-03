@@ -1,5 +1,6 @@
-node 'node1','node2' {
+node 'nodep1','nodep2' {
     file {'/tmp/f1.txt':
       ensure => present,
+      content =>"created by puppetmaster"
       }
  }
